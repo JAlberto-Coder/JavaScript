@@ -1,0 +1,24 @@
+.tabs-list {
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    min-width: 100px; 
+    text-align: center; 
+    font-size: 15px;
+}
+
+    .tab.active {
+        border-bottom: 2px solid #007bff;
+        font-weight: bold;
+    }
+
+.tab-content {
+    display: none;
+}

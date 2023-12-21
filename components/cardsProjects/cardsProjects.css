@@ -1,0 +1,155 @@
+.card-special {
+    display: inline-block;
+    position: relative;
+    width: 380px;
+    min-width: 380px;
+    height: 225px;
+    border-radius: 12px !important;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    margin: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: black !important;
+    /*background-color: white;*/
+}
+
+    .card-special:hover {
+        transform: scale(1.03); /* Cambia el valor según tus preferencias */
+        box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
+    }
+
+.card-special-description-bk {
+    position: absolute;
+    bottom: 0px;
+    height: 16px;
+    width: 100%;
+}
+
+.card-special-logo {
+    height: 84px;
+    width: 84px;
+    border-radius: 12px!important;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    overflow: hidden;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+    .card-special-logo img {
+        height: 100%;
+    }
+
+.card-special-title {
+    position: absolute;
+    top: 16px;
+    left: 116px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-special-entity {
+    position: absolute;
+    top: 90px;
+    left: 16px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.card-special-type {
+    position: absolute;
+    top: 90px;
+    right: 16px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.card-special-responsability {
+    position: absolute;
+    top: 120px;
+    left: 16px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.card-special-dates {
+    position: absolute;
+    top: 120px;
+    right: 16px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.card-start-date {
+    position: absolute;
+    top: 150px;
+    left: 16px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.card-end-date {
+    position: absolute;
+    top: 150px;
+    right: 16px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+}
+
+.card-special-status {
+    position: absolute;
+    top: 165px;
+    left: 0; 
+    right: 0; 
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-special-entity,
+.card-special-type {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #777;
+}
+
+.card-special-status,
+.card-special-responsability {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.card-special:hover {
+    cursor: pointer;
+}
+/*CONTEXTMENU*/
+.context-menu {
+    position: absolute;
+    background-color: #fff; /* Color de fondo del menú */
+    border: 1px solid #ccc; /* Borde del menú */
+    border-radius: 4px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    padding: 5px 0; /* Espacio interno del menú */
+    z-index: 100; /* Asegura que esté por encima de otros elementos */
+}
+
+    .context-menu div {
+        padding: 8px 16px; /* Espacio interno de los elementos del menú */
+        cursor: pointer; /* Cursor de apuntador al pasar por encima de los elementos */
+        user-select: none; /* Evita la selección de texto en el menú */
+        transition: background-color 0.2s; /* Efecto de transición en el color de fondo */
+    }
+
+        .context-menu div:hover {
+            background-color: #f0f0f0; /* Cambia el color de fondo al pasar el ratón */
+        }
